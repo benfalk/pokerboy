@@ -14,7 +14,7 @@ defmodule Pokerboy.Endpoint do
     at: "/",
     from: :pokerboy,
     gzip: false,
-    only: ~w(js app content lib favicon.ico robots.txt, index.html)
+    only: ~w(css fonts images js favicon.ico robots.txt)
   )
 
   # Code reloading can be explicitly enabled under the
